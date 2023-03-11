@@ -4,25 +4,48 @@
 
 <head>
 	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Sprint Challenge - Anasayfa</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+	<link href="index.css" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/index.css">
+
 </head>
 
 <body>
-	<div>
+	<div class="navbar">
 		<!-- header -->
 		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
+			<div class="header">
+				<h1>ERGİNEER BAR VE MANGAL</h1>
+			</div>
+			<nav>
+			<div class="menu">	
+				<div><a href="#">Menü</a></div>
+				<div><a href="#">Rezervasyonlar</a></div>
+				<div><a href="#">Özel Teklifler</a></div>
+				<div><a href="#">İletişim</a></div> 
+			</div>
 
-				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
+			</nav>
+				<div class="header ikon">
+					<i class="fa-brands fa-square-facebook"></i>
+					<i class="fa-brands fa-square-instagram"></i>
+					<i class="fa-brands fa-square-twitter"></i>
+			</div>
+				
+				<!-- <nav>
+					<ul>
+						<li><a href="#">Menü</a></li>
+						<li><a href="#">Rezervasyonlar</a></li>
+						<li><a href="#">Özel Teklifler</a></li>
+						<li><a href="#">İletişim</a></li>
+					</ul>
+				</nav> -->
 			</div>
 		</header>
 
@@ -30,24 +53,26 @@
 		<section class="gallery">
 			<div>
 				<h2>YEMEKLERİMİZ</h2>
+			</div>
+		
+				<img src="img/food-avocadotoast.jpg" width="250px" height="150px" >
 
-				img/food-avocadotoast.jpg
+				<img src="img/food-burger.jpg"width="250px" height="150px">
 
-				img/food-burger.jpg
+				<img src="img/food-poutine.jpg"width="250px" height="150px">
+			
 
-				img/food-poutine.jpg
+				<img src="img/food-ribs.jpg"width="250px" height="150px">
 
-				img/food-ribs.jpg
+				<img src="img/food-sandwich.jpg"width="250px" height="150px">
 
-				img/food-sandwich.jpg
+				<img src="img/food-sausage.jpg"width="250px" height="150px">
 
-				img/food-sausage.jpg
+				<img src="img/food-steak.jpg"width="250px" height="150px">
 
-				img/food-steak.jpg
+				<img src="img/food-tacos.jpg"width="250px" height="150px">
 
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+				<img src="img/food-wings.jpg"width="250px" height="150px">
 			</div>
 		</section>
 
@@ -125,15 +150,31 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
+			<div class="footer__menu">
+				<form>
+					<label for="emailAddress">Mail listemize katılın!</label><br />
+					<input id="emailAddress" type="email" size="64" maxlength="64" required
+						placeholder="E-posta Adresi" />
+					<button>Üye Ol</button>
+				</form>
+			
 			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
+			<nav >
+				<div class="menu">	
+					<div><a href="menu.html">Menü</a></div>
+					<div><a href="menu.html">Rezervasyonlar</a></div>
+					<div><a href="menu.html">Özel Teklifler</a></div>
+					<div><a href="menu.html">İletişim</a></div> 
+				</div>
+	
+		</nav>
+
+		
+	
 			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+			<div class="alt">
+			<p>©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</p>
+		</div>	
 		</footer>
 	</div>
 </body>
